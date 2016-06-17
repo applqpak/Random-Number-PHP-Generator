@@ -5,10 +5,7 @@
 <?php
 //Made By Friendship :P 
 $number = rand(1,100);   //Change "100" to the number of contestants.
-print $number;
-if ($number === 7) {          //This part isn't necessary. I added it for the lols
-print " Lucky Number 7! Congrats!";     //This line as well isn't necessary.
-	}
+print $number . " " . "Was randomly chosen between 1 to 100";
 ?>
 </h3>
 </center>
