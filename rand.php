@@ -17,6 +17,6 @@
   /*
   Random Number Generator By Friendship! ^~^
   */
-  $rand = rnad(1, 100); // Change 100 to however many contestants are needed.
-  Echo "<h3>The random number is: " . $rand . "</h3>";
+  $rand = rand(1, 100); // Change 100 to however many contestants are needed.
+  echo "<h3>The random number is: " . $rand . "</h3>";
 ?>
